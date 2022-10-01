@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vignesh Kundar</title>
+</head>
+<body>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+
+body {
+   background-color: #171717;
+   margin:0;
+}
+
+
+
+
+svg text {
+  font-family: 'Passions Conflict', cursive;
+  stroke: white;
+  font-size: 150px;
+  font-weight: 100;
+  stroke-width: 1px;
+  fill : transparent;
+ 
+  animation: textAnimate 20s infinite alternate;
+  
+}
+
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset:  20%;
+    
+  }
+  
+  50% {
+    fill:transparent;
+  }
+  
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffstet: -20%;
+    fill: white;
+  }
+  
+}
+
+
+
+</style>
+
+    <svg width="100%" height="100vh">     
+    <rect x="0" y="0" width="100%" height="100%" fill="url(#polka-dots)"> </rect>
+ <text x="50%" y="50%"  text-anchor="middle"  >
+   vignesh Kundar
+ </text>
+ </svg> 
+
+</body>
+</html>
